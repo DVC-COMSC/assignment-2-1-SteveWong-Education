@@ -1,10 +1,5 @@
 def main():
-    """
-    ##################################################
-    Comlete your code here
-    Use m_perc and f_perc for your results
-    ##################################################
-    """
+    
 
     
     m_perc = input()
