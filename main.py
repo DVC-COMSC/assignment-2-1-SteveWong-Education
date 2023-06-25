@@ -5,6 +5,8 @@ def main():
     Use m_perc and f_perc for your results
     ##################################################
     """
+
+    
     m_perc = input()
     f_perc = input()
 
@@ -21,6 +23,7 @@ def main():
     ########################################
     """
     return m_perc, f_perc
+
 
 
 if __name__ == '__main__':
