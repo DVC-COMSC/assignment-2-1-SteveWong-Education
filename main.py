@@ -9,8 +9,10 @@ def main():
     print(f"The number of males and females \t{m_perc}      \t{f_perc}")
     temp1 = m_perc
     temp2 = f_perc
-    m_perc = float(m_perc)/total 
-    f_perc = float(f_perc)/total 
+
+    ### 40 / 100 is fraction value. It is not a percentage. To get a percentage value, you should time by 100
+    m_perc = float(m_perc)/total * 100
+    f_perc = float(f_perc)/total * 100
     print(f"The percentage of males and females     {format((m_perc), '.2%')}          {format((f_perc), '.2%')}")
 
     ### Question. Why do you assign "temp1" to m_perc even "m_perc" has the correct value now?
